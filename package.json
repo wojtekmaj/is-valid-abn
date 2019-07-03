@@ -1,0 +1,41 @@
+{
+  "name": "is-valid-abn",
+  "version": "1.0.0",
+  "description": "Check if a number is a valid Australian Business Number (ABN)",
+  "main": "dist/index.js",
+  "source": "src/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "build": "babel src -d dist --ignore **/*.spec.js",
+    "jest": "jest",
+    "lint": "eslint src/ --ext .jsx,.js",
+    "prepublishOnly": "yarn build",
+    "test": "yarn lint && yarn jest"
+  },
+  "keywords": [
+    "validation",
+    "abn"
+  ],
+  "author": {
+    "name": "Wojciech Maj",
+    "email": "kontakt@wojtekmaj.pl"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.0",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.0",
+    "babel-jest": "^24.8.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
+    "jest": "^24.8.0"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist/",
+    "src/"
+  ],
+  "repository": "https://github.com/DemystData/is-valid-abn.git"
+}
