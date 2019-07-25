@@ -31,6 +31,12 @@ describe('isValidABN', () => {
     expect(result).toBe(false);
   });
 
+  it('returns true for valid numeric input', () => {
+    const result = isValidABN(83914571673);
+
+    expect(result).toBe(true);
+  });
+
   it('returns true for valid input', () => {
     const result = isValidABN('83914571673');
 
