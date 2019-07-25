@@ -8,10 +8,6 @@ Check if a number is a valid Australian Business Number (ABN)
 * Import by adding `import isValidABN from 'is-valid-abn'`.
 * Use it by writing `const valid = isValidABN('83914571673')`
 
-## Accepted formats
-* Strings with one or multiple class names: `a`, `a b`
-* Array of strings with one or multiple class names: `['a', 'b']`, `['a b', 'c d']`.
-
 ## Examples
 
 ```js
