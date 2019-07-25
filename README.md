@@ -16,6 +16,9 @@ Check if a number is a valid Australian Business Number (ABN)
 
 > isValidABN('83 914 571 673');
 < true
+
+> isValidABN('83-914-571-673');
+< true
 ```
 
 ## License
