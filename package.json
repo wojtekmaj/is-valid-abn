@@ -10,9 +10,10 @@
     "build": "yarn build-esm && yarn build-umd",
     "build-esm": "BABEL_ENV=production-esm babel src -d dist/esm --ignore **/*.spec.js",
     "build-umd": "BABEL_ENV=production-umd babel src -d dist/umd --ignore **/*.spec.js",
+    "clean": "rimraf dist",
     "jest": "jest",
     "lint": "eslint src/ --ext .jsx,.js",
-    "prepublishOnly": "yarn build",
+    "prepublishOnly": "yarn clean && yarn build",
     "test": "yarn lint && yarn jest"
   },
   "keywords": [
