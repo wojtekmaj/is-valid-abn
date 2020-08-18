@@ -8,19 +8,20 @@ export default function isValidABN(rawAbn) {
   // strip non-alphanumeric characters
   const abn = rawAbn.toString().replace(/[^a-zA-Z\d]/gi, '');
 
-  // check length is 11 digits
-  if (abn.length === 11) {
-    // apply ato check method
-    let sum = 0;
-    for (let position = 0; position < weights.length; position += 1) {
-      const weight = weights[position];
-      const digit = parseInt(abn[position], 10) - (position ? 0 : 1);
-      sum += weight * digit;
-    }
-
-    const checksum = sum % 89;
-    return checksum === 0;
+  // check if length is 11 digits
+  if (abn.length !== 11) {
+    return false;
   }
 
-  return false;
+  // apply ato check method
+  let sum = 0;
+  for (let position = 0; position < weights.length; position += 1) {
+    const weight = weights[position];
+    const digit = parseInt(abn[position], 10) - (position ? 0 : 1);
+    sum += weight * digit;
+  }
+
+  const checksum = sum % 89;
+
+  return checksum === 0;
 }
