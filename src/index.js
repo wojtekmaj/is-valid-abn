@@ -6,7 +6,7 @@ export default function isValidABN(rawAbn) {
   }
 
   // strip non-alphanumeric characters
-  const abn = rawAbn.toString().replace(/[^a-zA-Z\d]/gi, '');
+  const abn = rawAbn.toString().replace(/[^a-z\d]/gi, '');
 
   // check if length is 11 digits
   if (abn.length !== 11) {

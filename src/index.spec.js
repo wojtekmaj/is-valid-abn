@@ -19,6 +19,12 @@ describe('isValidABN', () => {
     expect(result).toBe(false);
   });
 
+  it('returns false for partially numeric input', () => {
+    const result = isValidABN('83914571673FOX');
+
+    expect(result).toBe(false);
+  });
+
   it('returns false for invalid input with invalid length', () => {
     const result = isValidABN('123');
 
