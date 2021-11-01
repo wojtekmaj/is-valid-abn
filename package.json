@@ -43,5 +43,6 @@
     "dist/",
     "src/"
   ],
-  "repository": "https://github.com/DemystData/is-valid-abn.git"
+  "repository": "https://github.com/DemystData/is-valid-abn.git",
+  "packageManager": "yarn@3.1.0"
 }
