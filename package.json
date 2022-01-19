@@ -38,10 +38,8 @@
     "semver@7.0.0": "^7.0.0"
   },
   "files": [
-    "LICENSE",
-    "README.md",
-    "dist/",
-    "src/"
+    "dist",
+    "src"
   ],
   "repository": "https://github.com/DemystData/is-valid-abn.git",
   "packageManager": "yarn@3.1.0"
