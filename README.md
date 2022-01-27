@@ -1,16 +1,18 @@
 [![npm](https://img.shields.io/npm/v/is-valid-abn.svg)](https://www.npmjs.com/package/is-valid-abn) ![downloads](https://img.shields.io/npm/dt/is-valid-abn.svg) [![CI](https://github.com/DemystData/is-valid-abn/workflows/CI/badge.svg)](https://github.com/DemystData/is-valid-abn/actions) [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
 # Is-Valid-ABN
+
 Check if a number is a valid Australian Business Number (ABN).
 
 ## tl;dr
-* Install by executing `npm install is-valid-abn` or `yarn add is-valid-abn`.
-* Import by adding `import isValidABN from 'is-valid-abn'`.
-* Use it by writing `const valid = isValidABN('83914571673')`
+
+- Install by executing `npm install is-valid-abn` or `yarn add is-valid-abn`.
+- Import by adding `import isValidABN from 'is-valid-abn'`.
+- Use it by writing `const valid = isValidABN('83914571673')`
 
 ## See also
 
-* [is-valid-acn](https://github.com/DemystData/is-valid-acn): Check if a number is a valid Australian Company Number (ACN).
+- [is-valid-acn](https://github.com/DemystData/is-valid-acn): Check if a number is a valid Australian Company Number (ACN).
 
 ## Examples
 
