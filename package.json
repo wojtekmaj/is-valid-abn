@@ -1,6 +1,6 @@
 {
   "name": "is-valid-abn",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Check if a number is a valid Australian Business Number (ABN)",
   "main": "dist/umd/index.js",
   "module": "dist/esm/index.js",
