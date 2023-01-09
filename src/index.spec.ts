@@ -2,6 +2,7 @@ import isValidABN from './index';
 
 describe('isValidABN', () => {
   it('returns false for no input', () => {
+    // @ts-expect-error-next-line
     const result = isValidABN();
 
     expect(result).toBe(false);
