@@ -15,11 +15,10 @@ export default function isValidABN(rawAbn: string | number): boolean {
 
   // apply ato check method
   let sum = 0;
-  for (let position = 0; position < weights.length; position += 1) {
-    const weight = weights[position];
-    const digit = parseInt(abn[position], 10) - (position ? 0 : 1);
+  weights.forEach((weight, position) => {
+    const digit = Number(abn[position]) - (position ? 0 : 1);
     sum += weight * digit;
-  }
+  });
 
   const checksum = sum % 89;
 
