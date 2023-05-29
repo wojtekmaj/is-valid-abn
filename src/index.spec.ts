@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import isValidABN from './index';
+import isValidABN from './index.js';
 
 describe('isValidABN', () => {
   it('returns false for no input', () => {
