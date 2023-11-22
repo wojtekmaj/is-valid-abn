@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/is-valid-abn.svg)](https://www.npmjs.com/package/is-valid-abn) ![downloads](https://img.shields.io/npm/dt/is-valid-abn.svg) [![CI](https://github.com/wojtekmaj/is-valid-abn/workflows/CI/badge.svg)](https://github.com/wojtekmaj/is-valid-abn/actions)
+[![npm](https://img.shields.io/npm/v/is-valid-abn.svg)](https://www.npmjs.com/package/is-valid-abn) ![downloads](https://img.shields.io/npm/dt/is-valid-abn.svg) [![CI](https://github.com/wojtekmaj/is-valid-abn/actions/workflows/ci.yml/badge.svg)](https://github.com/wojtekmaj/is-valid-abn/actions)
 
 # Is-Valid-ABN
 
