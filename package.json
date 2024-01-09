@@ -58,7 +58,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wojtekmaj/is-valid-abn.git"
+    "url": "git+https://github.com/wojtekmaj/is-valid-abn.git"
   },
   "funding": "https://github.com/wojtekmaj/is-valid-abn?sponsor=1",
   "packageManager": "yarn@4.0.2"
