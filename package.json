@@ -51,5 +51,5 @@
     "url": "git+https://github.com/wojtekmaj/is-valid-abn.git"
   },
   "funding": "https://github.com/wojtekmaj/is-valid-abn?sponsor=1",
-  "packageManager": "yarn@4.10.3"
+  "packageManager": "yarn@4.14.0"
 }
